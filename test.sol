@@ -151,10 +151,10 @@ contract TRC20Token is TRC20Interface, Owned {
 contract RichLabExchange is TRC20Token {
 
   constructor() public {
-    initialSupply = 1000000000;
-    name = "Rich Lab Token";
-    symbol = "RLE";
-    decimals = 6;
+    initialSupply = 10000000000;
+    name = "iFTi";
+    symbol = "iFTi";
+    decimals = 8;
     totalSupply = initialSupply * 10 ** uint256(decimals);
     _balances[msg.sender] = totalSupply;
   }
