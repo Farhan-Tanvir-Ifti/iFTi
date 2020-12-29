@@ -148,7 +148,7 @@ contract TRC20Token is TRC20Interface, Owned {
   }
 }
 
-contract RichLabExchange is TRC20Token {
+contract iFTi is TRC20Token {
 
   constructor() public {
     initialSupply = 10000000000;
